@@ -45,7 +45,7 @@ def test_scalar_pressure_kart_min():
 
 
 def test_scalar_pressure_kart_max():
-    test_utils.assert_scene_max(DEMO_ID, 'Pressure Kart', 'Scalar', 5.0,
+    test_utils.assert_scene_max(DEMO_ID, 'Pressure Kart', 'Scalar', 5.2,
                                 tolerance=0.1, relative=True)
 
 
